@@ -15,7 +15,7 @@ include /usr/share/dpkg/architecture.mk
 
 sonic/Sonic.class: Sonic.java
 	[ -L sonic ] || ln -s . sonic
-	javac -source 1.6 -target 1.6 $<
+	javac -source 1.7 -target 1.7 $<
 
 sonic.jar: sonic/Sonic.class
 	jar -cf $@ $^

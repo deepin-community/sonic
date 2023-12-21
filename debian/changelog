@@ -1,3 +1,10 @@
+sonic (0.2.0-12) unstable; urgency=medium
+
+  * control: Bump Standards-Version to 4.6.0 (no change)
+  * rules: Bump java compatibility to 1.7.
+
+ -- Samuel Thibault <sthibault@debian.org>  Wed, 25 May 2022 17:20:40 +0200
+
 sonic (0.2.0-11) unstable; urgency=medium
 
   [ Samuel Thibault ]
